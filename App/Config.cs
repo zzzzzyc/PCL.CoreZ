@@ -102,6 +102,11 @@ public static partial class Config
         /// 启动时的社区版提示。
         /// </summary>
         [ConfigItem<bool>("UiLauncherCEHint", false)] public partial bool CEMessage { get; set; }
+        
+        /// <summary>
+        /// 购买正版提示。
+        /// </summary>
+        [ConfigItem<bool>("HintBuy", false)] public partial bool BuyGame { get; set; }
 
         /// <summary>
         /// 社区版提示计数。
