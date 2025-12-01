@@ -21,7 +21,8 @@
         <UseWPF>true</UseWPF>
         <EnableWindowsTargeting>true</EnableWindowsTargeting>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-        <LangVersion>14.0</LangVersion>
+        <LangVersion>13.0</LangVersion>
+        <LangVersion>preview</LangVersion>
         <Nullable>enable</Nullable>
         <ErrorReport>prompt</ErrorReport>
         <WarningLevel>4</WarningLevel>
